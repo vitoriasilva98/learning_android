@@ -14,5 +14,6 @@ class MainActivity : Activity() {
         val view = TextView(this)
 //        view.setText("cesta de frutas")
         setContentView(R.layout.activity_main)
+//        findViewById<TextView>()
     }
 }
