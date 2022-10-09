@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".DescricaoFigurinha">
+
+    <TextView
+        android:id="@+id/descricao_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:height="22dp"
+        android:textColor="@color/black"
+        tools:text="Vinícius Jr" />
+
+    <TextView
+        android:id="@+id/descricao_ano_nasci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="22dp"
+        android:textColor="@color/black"
+        tools:text="12/07/2000" />
+
+    <TextView
+        android:id="@+id/descricao_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="22dp"
+        android:textColor="@color/black"
+        tools:text="Brasil" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/descricao_figurinha"
+            android:layout_width="350dp"
+            android:layout_height="455dp"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/fig_01" />
+
+        <Button
+            android:id="@+id/botao_voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:backgroundTint="@color/cor_voltar_album"
+            android:text="@string/text_voltar_para_o_album"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

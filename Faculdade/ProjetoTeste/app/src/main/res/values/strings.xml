@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjetoTeste</string>
+    <string name="text_central_de_ajuda">Central de ajuda</string>
+    <string name="text_info_contato">Informações de contato</string>
+</resources>
