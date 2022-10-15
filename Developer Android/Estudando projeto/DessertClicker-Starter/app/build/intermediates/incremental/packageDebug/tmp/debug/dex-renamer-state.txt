@@ -1,0 +1,4 @@
+#Wed Oct 12 19:03:49 BRT 2022
+base.0=/home/nava/Documentos/pessoal/repositorios de estudo/learning_android/Developer Android/Estudando projeto/DessertClicker-Starter/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
